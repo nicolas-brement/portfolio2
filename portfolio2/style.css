@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    background-size: 50%;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    background: rgb(114,47,158);
+    background: linear-gradient(90deg, rgba(114,47,158,1) 0%, rgba(114,47,158,1) 100%);
+    border-style: 0 5px 10px rgba(79,208,83,1), 0 5px 10px rgba(79,208,83,1);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+section h3 {
+    margin-top: 10%;
+}
+
+.hamburger-menu {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  margin: 5px 0;
+}
+
+.menu-list {
+  display: none;
+}
+
+.menu-list.show-menu {
+  display: block;
+}
+
+.box1 {
+    width: 100%;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: row;
+}
+
+#background-pres {
+    position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    top: 10%;
+}
+
+#description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    color: white;
+    text-align: center;
+    background: rgb(79,208,83);
+    background: linear-gradient(90deg, rgba(79,208,83,0.458420868347339) 0%, rgba(79,208,83,0.4500175070028011) 100%);
+    width: 28vw;
+    height: 3vw;
+    border-radius: 10px;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+}
+
+
+
+/****** ANIMATION PRESENTATION ******/
+
+.description {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.avatar img {
+    position: relative;
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+    width: 30vw;
+    height: 30vw;
+    left: 95%;
+    bottom: 35%;
+}
+/*
+@keyframes fade-up-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-130px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+#description.visible {
+    visibility: visible;
+}*/
+
+.reveal {
+    opacity: 0;
+    transform: translateX(-150px);
+}
+
+.reveal-visible {
+    opacity: 1;
+    transform: translateX(0);
+    transition: 1.8s;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    #background-pres {
+        background-size: 20%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+        top: 10%;
+        object-fit: cover;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    
+    #description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 4vw;
+        color: white;
+        text-align: center;
+        background: rgb(79,208,83);
+        background: linear-gradient(90deg, rgba(79,208,83,0.458420868347339) 0%, rgba(79,208,83,0.4500175070028011) 100%);
+        width: 45vw;
+        height: 10vw;
+        border-radius: 5px;
+    }
+
+    h2 {
+        display: flex;
+        align-items: center;
+        font-size: 4vw;
+        color: white;
+        text-align: center;
+        
+    }
+
+    .box1 {
+        width: 100%;
+        margin-top: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .avatar img {
+        position: relative;
+        display: flex;  
+        flex-direction: column;
+        align-items: center;
+        width: 60vw;
+        height: 60vw;
+        margin-top: 30px;
+        left: 2%;
+    }
+
+}
