@@ -15,9 +15,11 @@ function toggleMenu() {
     entries .forEach(function(entry) {
         if (entry.intersectionRatio > ratio) {
             entry.target.classList.add('reveal-visible')
+            entry.target.classList.add('reveal2-visible')
             console.log('visible')
           } else {
             entry.target.classList.remove('reveal-visible')
+            entry.target.classList.remove('reveal2-visible')
             console.log('invisible')
           }
     });
@@ -25,6 +27,9 @@ function toggleMenu() {
   
   const observer = new IntersectionObserver(handleIntersect, options);
   observer.observe(document.querySelector('.reveal'));
+
+  const observer2 = new IntersectionObserver(handleIntersect, options);
+  observer.observe(document.querySelector('.reveal2'));
   
 
   /*function isInViewport(element) {
