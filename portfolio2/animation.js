@@ -30,6 +30,7 @@ function toggleMenu() {
 
   const observer2 = new IntersectionObserver(handleIntersect, options);
   observer.observe(document.querySelector('.reveal2'));
+
   
 
   /*function isInViewport(element) {

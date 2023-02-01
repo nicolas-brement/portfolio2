@@ -37,6 +37,7 @@ header {
     flex-direction: column;
     height: 100%;
     margin-top: 5.5vw;
+    overflow: hidden;
 
 }
 
@@ -213,11 +214,10 @@ p {
     display: flex;  
     flex-direction: row;
     align-items: center;
-    width: 40vw;
-    height: 40vw;
-    left: 105%;
+    width: 60vw;
+    height: 45vw;
+    margin-left: 88%;
     bottom: 65%;
-
 }
 /*
 @keyframes fade-up-left {
@@ -275,6 +275,13 @@ p {
         object-fit: cover;
    }
 
+   body {
+    background-size: 50%;
+    background-color: rgb(24, 24, 24);
+
+   /* cursor: url(/static/media/arrowPoint.5b3f3b5c07736388f143.svg) 15 15,move;*/
+}
+
    header {
         position: relative;
         position: fixed;
@@ -307,7 +314,7 @@ p {
         flex-direction: column;
         height: 100%;
         width: 100%;
-
+        overflow: hidden;
     }
     
     #description {
@@ -381,10 +388,10 @@ p {
         display: flex;  
         flex-direction: column;
         align-items: center;
-        width: 60vw;
-        height: 60vw;
+        width: 65vw;
+        height: 45vw;
         margin-top: 30px;
-        left: 2%;
+
     }
 
     .reveal2 {
@@ -406,7 +413,7 @@ p {
         align-items: center;
         width: 100%;
         height: 100%;
-        margin-top: 50%;
+        margin-top: 80%;
     
     }
 
