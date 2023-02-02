@@ -19,6 +19,7 @@
 body {
     background-color: rgb(0, 0, 0);
     object-fit: cover;
+    height: fit-content;
 }
 
 header {
@@ -92,7 +93,7 @@ header {
     margin-left: 2%;
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 97%;
 }
 
 h1 {
@@ -104,7 +105,7 @@ h1 {
     text-align: center;
     background: rgb(79,208,83);
     background: linear-gradient(90deg, rgba(79,208,83,0.458420868347339) 0%, rgba(79,208,83,0.4500175070028011) 100%);
-    width: 45vw;
+    width: 20vw;
     height: 8vw;
     border-radius: 1vw;
     font-family: 'exospace', sans-serif;
@@ -117,6 +118,7 @@ h1 {
     background-image: linear-gradient(to right, #F96332, #F2385A);
     mix-blend-mode: difference;
     animation: hue 60s infinite linear;
+    width: 50%;
 }
 
 .description p {
@@ -142,7 +144,7 @@ h2 {
     color: white;
     text-align: center;
     position: relative;
-    top: 15%;
+    top: 17%;
     font-family: 'exospace', sans-serif;
     text-shadow: #000 2px 2px 10px;
 }
@@ -195,6 +197,14 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20%;
+}
+
+.project-title-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .tooling-title {
@@ -211,6 +221,25 @@ p {
     display: flex;
     justify-content: center;
     margin-bottom: 4rem;
+    padding: .8rem 2rem;
+    font-family: "cyborg", sans-serif;
+}
+
+
+.project-title {
+    font-size: 4.5vw;
+    color: #14e956;
+    margin-top: 2vw;
+    width: 40%;
+    align-items: center;
+    background: #12141d;
+    border-radius: 12px;
+    box-shadow: inset 0 0 4px 1px #14e956;
+    -webkit-box-shadow: inset 0 0 4px 1px #14e956;
+    -moz-box-shadow: inset 0 0 4px 1px #14e956;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
     padding: .8rem 2rem;
     font-family: "cyborg", sans-serif;
 }
@@ -348,7 +377,6 @@ h4 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 15%;
 }
 
 /* Showroom */
@@ -462,8 +490,8 @@ h4 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 10%;
     margin-bottom: 20%;
+    height: 100%;
 }
 
 .project1 {
@@ -474,6 +502,197 @@ h4 {
     margin-top: 10%;
 }
 
+.project2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30%;
+}
+
+.project3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30%;
+}
+
+.project4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30%;
+}
+
+.project5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30%;
+}
+
+/* CARDS */
+
+.card {
+    width: 80vw;
+    height: 80vw;
+    background: #12141d;
+    border-radius: 30px;
+    transition: 0.2s ease-in-out;
+  }
+
+  
+  
+  .img {
+    width: 100%;
+    height: 50%;
+    background-image: url(images/img_taiyaki.png);
+    background-size: cover;
+    display: flex;
+    align-items: top;
+    justify-content: right;
+    border-top-right-radius: 4vw;
+    border-top-left-radius: 4vw;
+  }
+
+  .img2 {
+    width: 100%;
+    height: 50%;
+    background-image: url(images/img-reservationsalles.png);
+    background-size: cover;
+    display: flex;
+    align-items: top;
+    justify-content: right;
+    border-top-right-radius: 4vw;
+    border-top-left-radius: 4vw;
+  }
+  
+  .img3 {
+    width: 100%;
+    height: 50%;
+    background-image: url(images/img-livredor.png);
+    background-size: cover;
+    display: flex;
+    align-items: top;
+    justify-content: right;
+    border-top-right-radius: 4vw;
+    border-top-left-radius: 4vw;
+  }
+
+  .img4 {
+    width: 100%;
+    height: 50%;
+    background-image: url(images/img-moduleconnexion.png);
+    background-size: cover;
+    display: flex;
+    align-items: top;
+    justify-content: right;
+    border-top-right-radius: 4vw;
+    border-top-left-radius: 4vw;
+  }
+
+  .img5 {
+    width: 100%;
+    height: 50%;
+    background-image: url(images/img-sitemarseille.png);
+    background-size: cover;
+    display: flex;
+    align-items: top;
+    justify-content: right;
+    border-top-right-radius: 4vw;
+    border-top-left-radius: 4vw;
+  }
+  
+  .text {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+  }
+  
+  
+  .icon-box {
+    margin-top: 15px;
+    width: 70%;
+    padding: 10px;
+    background-color: #e3fff9;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+  
+  .icon-box svg {
+    width: 17px;
+  }
+  
+  .text .h3 {
+    font-family: 'Lucida Sans' sans-serif;
+    font-size: 5vw;
+    font-weight: 600;
+    font-family: "cyborg", sans-serif;
+    margin-bottom: 20px;
+    color: #0c8c34;
+  }
+  
+  .text .p {
+    font-family: "exospace", sans-serif;
+    color: #999999;
+    font-size: 3vw;
+  }
+  
+  .icon-box .span {
+    margin-left: 10px;
+    font-family: 'Lucida Sans' sans-serif;
+    font-size: 13px;
+    font-weight: light;
+  }
+  
+  .card:hover {
+    cursor: pointer;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+  }
+  
+
+  .button-wrap {
+    align-items: center;
+    display: flex;
+    height: -webkit-max-content;
+    height: max-content;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 9%;
+}
+
+button {
+    background: #14e956;
+    background-color: #14e956;
+    background-image: linear-gradient(315deg,#14e956,#72f29a);
+    border: none;
+    border-radius: 7px;
+    box-shadow: 9px 7px 32px -11px rgba(20,233,86,.74);
+    cursor: pointer;
+    font-family: Cyborg;
+    font-size: 1.1rem;
+    font-weight: 900;
+    outline: none;
+    padding: .5rem .9rem;
+    position: relative;
+    text-transform: lowercase;
+    transition: all .3s ease-in-out 0s;
+}
+
+button:hover {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+    }
+
+.button a {
+    text-decoration: none;
+}
 
 
 
@@ -636,6 +855,26 @@ h4 {
         font-family: "cyborg", sans-serif;
     }
 
+    .project-title {
+        font-size: 1.5vw;
+        color: #14e956;
+        margin-top: 2vw;
+        width: 25%;
+        height: 15%;
+        align-items: center;
+        background: #12141d;
+        border-radius: 12px;
+        box-shadow: inset 0 0 4px 1px #14e956;
+        -webkit-box-shadow: inset 0 0 4px 1px #14e956;
+        -moz-box-shadow: inset 0 0 4px 1px #14e956;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5rem;
+        padding: .8rem 2rem;
+        font-family: "cyborg", sans-serif;
+    }
+
+
     
 
     .tooling-box {
@@ -753,5 +992,150 @@ h4 {
         align-items: center;
         justify-content: center;
     }
+
+    .project {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10%;
+        width: 30%;
+        height: 100%;
+    }
+
+    /* CARDS */
+
+.card {
+    width: 30vw;
+    height: 30vw;
+    background: #12141d;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px #0c8c34,
+               -5px -5px 10px #12a742;
+    transition: 0.2s ease-in-out;
+  }
+
+  
+  
+  .img {
+    width: 100%;
+    height: 50%;
+    background-image: url(images/img_taiyaki.png);
+    background-size: cover;
+    display: flex;
+    align-items: top;
+    justify-content: right;
+    border-top-right-radius: 4vw;
+    border-top-left-radius: 4vw;
+  }
+
+  .img2 {
+    width: 100%;
+    height: 50%;
+    background-image: url(images/img-reservationsalles.png);
+    background-size: cover;
+    display: flex;
+    align-items: top;
+    justify-content: right;
+    border-top-right-radius: 4vw;
+    border-top-left-radius: 4vw;
+  }
+  
+  .img3 {
+    width: 100%;
+    height: 50%;
+    background-image: url(images/img-livredor.png);
+    background-size: cover;
+    display: flex;
+    align-items: top;
+    justify-content: right;
+    border-top-right-radius: 4vw;
+    border-top-left-radius: 4vw;
+  }
+
+  .img4 {
+    width: 100%;
+    height: 50%;
+    background-image: url(images/img-moduleconnexion.png);
+    background-size: cover;
+    display: flex;
+    align-items: top;
+    justify-content: right;
+    border-top-right-radius: 4vw;
+    border-top-left-radius: 4vw;
+  }
+
+  .img5 {
+    width: 100%;
+    height: 50%;
+    background-image: url(images/img-sitemarseille.png);
+    background-size: cover;
+    display: flex;
+    align-items: top;
+    justify-content: right;
+    border-top-right-radius: 4vw;
+    border-top-left-radius: 4vw;
+  }
+  
+  .text {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+  }
+  
+  
+  .icon-box {
+    margin-top: 15px;
+    width: 70%;
+    padding: 10px;
+    background-color: #e3fff9;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+  
+  .icon-box svg {
+    width: 17px;
+  }
+  
+  .text .h3 {
+    font-family: 'Lucida Sans' sans-serif;
+    font-size: 3vw;
+    font-weight: 600;
+    font-family: "cyborg", sans-serif;
+    margin-bottom: 20px;
+    color: #0c8c34;
+  }
+  
+  .text .p {
+    font-family: "exospace", sans-serif;
+    color: #999999;
+    font-size: 1.5vw;
+  }
+  
+  .icon-box .span {
+    margin-left: 10px;
+    font-family: 'Lucida Sans' sans-serif;
+    font-size: 13px;
+    font-weight: light;
+  }
+  
+  .card:hover {
+    cursor: pointer;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+  }
+  
+
+  .button-wrap {
+    align-items: center;
+    display: flex;
+    height: -webkit-max-content;
+    height: max-content;
+    justify-content: center;
+    text-decoration: none;
+
+}
 
 }
