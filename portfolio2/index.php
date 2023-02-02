@@ -44,74 +44,40 @@
             <div class="tooling-title" data-aos="flip-right" data-aos-duration="1500">
                 <h3>LANGAGES</h3><br>
             </div>
- 
-        .1<br>
-        .2<br>
-        .3<br>
-        .4<br>
-        .5<br>
-        .6<br>
-        .7<br>
-        .8<br>
-        .9<br>
-        .10<br>
-        .11<br>
-        .12<br>
-        .13<br>
-        .14<br>
-        .15<br>
-        .<br>
-        .<br>
-        .<br>
-        .<br>
-        .<br>
-        .<br>
-        .<br>
-        .<br>
-        .<br>
-        .<br>
-        .<br>
-        .<br>
-        .<br>
-        .<br>
-        .<br>
-        .<br>
-        </h4>
+            <div class="tooling-box" data-aos="flip-up" data-aos-duration="1500">
+               <div class="box-content">
+                    <img src="images/htmlicon2.png" class="htmlicon"><h4>Html</h4>
+                </div>
+                <div class="box-content3">
+                    <img src="images/jsicon2.png" class="jsicon"><h4>Javascript</h4>
+                </div>
+                <div class="box-content2">
+                    <img src="images/cssicon2.png" class="cssicon"><h4>Css</h4>
+                </div>
+                <div class="box-content4">
+                    <img src="images/phpicon.png" class="phpicon"><h4>Php</h4>
+                </div>
+                <div class="box-content5">
+                    <img src="images/sqlicon.png" class="sqlicon"><h4>Sql</h4>
+                </div>
         </div>
+</section>
+
+    <section>
+        <div class="project">
+            <div class="tooling-title" data-aos="flip-right" data-aos-duration="1500">
+                <h3>PROJETS</h3><br>
+            </div>
+                <div class="project1" data-aos="flip-up" data-aos-duration="1500">
+                    <div class="project1-content">
+                        <div class="project1-title"> <h4>Le Taiyaki</h4></div>
+                            
+                        
+                            
+                        
+                    </div>
+            
         </div>
-        .1<br>
-    .2<br>
-    .3<br>
-    .4<br>
-    .5<br>
-    .6<br>
-    .7<br>
-    .8<br>
-    .9<br>
-    .10<br>
-    .11<br>
-    .12<br>
-    .13<br>
-    .14<br>
-    .15<br>
-    .<br>
-    .<br>
-    .<br>
-    .<br>
-    .<br>
-    .<br>
-    .<br>
-    .<br>
-    .<br>
-    .<br>
-    .<br>
-    .<br>
-    .<br>
-    .<br>
-    .<br>
-    .<br>
-    </h4>
-    </div>
     </section>
     <script>
         AOS.init();
