@@ -74,21 +74,3 @@
 
   const observer2 = new IntersectionObserver(handleIntersect, options);
   observer.observe(document.querySelector('.reveal2'));
-
-  
-
-  /*function isInViewport(element) {
-    var rect = element.getBoundingClientRect();
-    return rect.top < window.innerHeight && rect.bottom > 0;
-}
-
-var backgroundPres = document.getElementById("description");
-backgroundPres.classList.add("visible");
-
-window.addEventListener("scroll", function() {
-    if (isInViewport(backgroundPres)) {
-        backgroundPres.classList.add("visible");
-    } else {
-        backgroundPres.classList.remove("visible");
-    }
-});*/
