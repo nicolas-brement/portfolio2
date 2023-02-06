@@ -1,6 +1,6 @@
 <head>
   <meta charset="utf-8">
-  <title>Mon portfolio de développeur web</title>
+  <title>Portfolio - Nicolas Brement</title>
   <link rel="stylesheet" href="style2.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -16,7 +16,7 @@
       <nav>
         <ul>
           <li id="nav-1" class="slide-out-1 center">
-            <a href="#section-menu" class="center">Description</a>
+            <a href="#" class="center">Description</a>
           </li>
           <li id="nav-2" class="slide-out-2 center">
             <a href="#section-tooling" class="center">Langages</a>
@@ -25,10 +25,10 @@
             <a href="#section-project" class="center">Projets</a>
           </li>
           <li id="nav-4" class="slide-out-4 center">
-            <a href="#projects" class="center">Projects</a>
+            <a href="#section-networks" class="center">Networks</a>
           </li>
           <li id="nav-5" class="slide-out-5 center">
-            <a href="#contact" class="center">Contact</a>
+            <a href="#section-contact" class="center">Contact</a>
           </li>
         </ul>
       </nav>
@@ -45,7 +45,7 @@
      <div class="container">
             <div class="box1">
                 <div class="description reveal">
-                <h1 class="text-bg">Hi there! I'm Nicolas Brement</h1>
+                <h1 class="text-bg"><span>✌🏻</span>&nbsp;Hi there! I'm Nicolas Brement</h1>
                     <h2>Web Developer Junior</h2><br>
                     <p>Après avoir travaillé dans différents domaines artistiques et la vente,<br> j'ai décidé de me lancer
                         dans l'univers du développement web.<br> J'ai intégré l'école de "La Plateforme_" et souhaite trouver une entreprise afin de pouvoir
@@ -175,7 +175,65 @@
 </div>
 </section>
 
-    </section>
+<section id="section-networks">
+    <div class="networks-title-parent">
+            <div class="networks-title" data-aos="flip-right" data-aos-duration="1500">
+                <h3>NETWORKS</h3><br>
+            </div>
+    </div>
+  
+<div class="networks-icon">
+    <div class="box-cv" data-aos="fade-left" data-aos-duration="1500">
+      <a href="https://drive.google.com/file/d/1mVXu5vZDqQXixITvEBw16eBwx9Bt9Tom/view?usp=sharing"><img id="CV" src="images/iconcv1.png" alt="photo CV"></a><h5>CV</h5>
+    </div>
+    <div class="box-linkedin" data-aos="fade-down" data-aos-duration="1500">
+      <a href="https://www.linkedin.com/in/nicolas-brement-3778a9260/"><img id="linkedin" src="images/iconlinkedin1.png" alt="photo linkedin"></a><h5>Linkedin</h5>
+    </div>
+    <div class="box-github" data-aos="fade-right" data-aos-duration="1500">
+      <a href="https://github.com/nicolas-brement"><img id="github" src="images/githubicon.png" alt="photo linkedin"></a><h5>Github</h5>
+    </div>
+</div>
+
+<div class="networks-name">
+  <div class="text-CV">
+    <a href="https://drive.google.com/file/d/1mVXu5vZDqQXixITvEBw16eBwx9Bt9Tom/view?usp=sharing"><h5>CV</h5></a>
+  </div>
+  <div class="text-linkedin">
+    <a href="https://www.linkedin.com/in/nicolas-brement-3778a9260/"><h5>Linkedin</h5></a>
+  </div>
+  <div class="text-github">
+    <a href="https://github.com/nicolas-brement"><h5>Github</h5></a>
+  </div>
+</div>
+</section>
+
+<section id="section-contact">
+    <div class="contact">
+            <div class="contact-title" data-aos="flip-right" data-aos-duration="1500">
+                <h3>CONTACT</h3><br>
+            </div>
+            <div class="question-contact" data-aos="zoom-in" data-aos-duration="1500">
+                <p>{&nbsp;</p><h6>Une&nbsp;question?</h6><p>&nbsp;}</p>
+            </div>
+            <div class="text-contact" data-aos="zoom-out" data-aos-duration="1500">
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Si vous avez des questions 
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ou que mon profil vous interesse,
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n'hésitez pas à me contacter.<br>
+                Je vous répondrais dans les plus brefs délais.</p>
+
+                <button class="bouton-contact">
+                <a href="mailto:nicolas.brement@laplateforme.io">Me contacter</a>
+                </button>
+</section>
+
+<footer>
+    <div class="footer">
+        <div class="footer-text">
+            <p>© 2023 Nicolas Brement</p>
+        </div>
+    </div>
+</footer>
+
     <script>
         AOS.init();
     </script>

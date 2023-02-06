@@ -1,8 +1,3 @@
-/* function toggleMenu() {
-    var menuList = document.getElementById("menu-list");
-    menuList.classList.toggle("show-menu");
-  }*/
-
   const hamburgerMenu = document.querySelector("#hamburger-menu");
   const overlay = document.querySelector("#overlay");
   const nav1 = document.querySelector("#nav-1");
@@ -47,6 +42,7 @@
     nav.addEventListener("click", toggleNav);
   });
 
+// Path: reveal.js
   const ratio = .1
   const options = {
     root: null,
@@ -74,3 +70,13 @@
 
   const observer2 = new IntersectionObserver(handleIntersect, options);
   observer.observe(document.querySelector('.reveal2'));
+
+// LOADER
+
+/*
+window.addEventListener("load", function() {
+  setTimeout(function() {
+    document.getElementById("loader").classList.add("hidden");
+  }, 2500);
+});*/
+
